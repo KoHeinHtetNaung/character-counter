@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>character-counter</title>
+
+    <link href="./output.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body class="bg-orange-400">
+
+    <section class="w-full h-screen flex items-center justify-center">
+        <div class=" w-80 h-52 bg-pink-400 rounded-xl">
+            <div class="w-full h-full p-4 ">
+                <h1 class="mb-4 mt-3 text-xl font-bold">Real-time Character Counter</h1>
+                <textarea class="w-full mt-2 mb-3 h-14 px-3 rounded-sm  font-medium"  name="" id="textarea" maxlength="50"></textarea>
+                <div class="mt-3 flex  justify-between font-medium">
+                    <p >Total Characters: <span id="totalCounter"></span></p>
+                    <p >Remaining: <span id="remainingCounter"></span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
